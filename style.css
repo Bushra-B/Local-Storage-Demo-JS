@@ -1,0 +1,62 @@
+header{
+    margin-left: 1%;
+    text-align: center;
+    margin-bottom: 7%;
+}
+#title{
+    font-family: sans-serif;
+    margin-left: 1%;
+    color: forestgreen;
+}
+hr{
+    width: 50%;
+    /* float: left;
+    clear: both; */
+}
+main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+fieldset{
+    width: 40%;
+    padding: 2%;
+    border-color: forestgreen;
+    margin-bottom: 5%;
+}
+legend{
+    font-family: fantasy;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    font-size: x-large;
+}
+input{
+    padding: 7px;
+    height: 29px;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: bisque;
+}
+#inputKey{
+    margin-right: 5%;
+}
+#inputValue{
+    margin-left: 5%;
+}
+button {
+    margin-left: 84%;
+    margin-top: 5%;
+    padding: 6px;
+    background-color: firebrick;
+    color: aliceblue;
+    border-radius: 10%;
+    border-style: double;
+    transition-duration: 0.4s;
+}
+button:hover{
+    cursor: pointer;
+    background-color:forestgreen;
+    color: aliceblue;
+    border: 2px solid #b22222
+    opacity: 0.9;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.404), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
